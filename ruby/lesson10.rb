@@ -4,8 +4,8 @@ class Car
   end
 end
 
-class Bike < Car
+class Bus < Car
 end
 
-bike = Bike.new
-bike.run(5)
+bus = Bus.new
+bus.run(5)
