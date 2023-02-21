@@ -71,7 +71,7 @@ footer {
   }
   
   main{
-    display: inline-block;
+    display: inlineblock;
     justify-content: center;
     align-items: center;
     width: 100%;
