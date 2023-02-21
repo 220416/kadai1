@@ -16,11 +16,12 @@ header{
 }
 
 main{
+  display: inline-block;
+  justify-content:center;
   width:90%;
   padding-top: 50px;
   padding-bottom:80px;
-  display: inline-block;
-  justify-content:center;
+  margin: 50px;
   text-align: left;
 }
 
@@ -69,15 +70,16 @@ footer {
 
 @media screen and (max-width:768px){
   header {
-         width: 100%;
+    width: 100%;
      }
   main{
-    width: 90%;
+    justify-content:center;
+    width: 100%;
+    margin: auto;
   }
-
+  
   .main-visual{
-    display: block;
-    margin:20px ;
+    width:90%;
     padding-bottom:20px ;
   }
 }

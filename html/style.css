@@ -72,14 +72,13 @@ footer {
   
   main{
     display: inline-block;
-    
+    justify-content:center;
     align-items: center;
     width:100%;
 
   }
   .step-box{
     display: inline-block;
-    justify-content:center;
     width:90%;
     margin-bottom: 20px;
     
